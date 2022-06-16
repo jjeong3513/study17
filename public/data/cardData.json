@@ -1,0 +1,61 @@
+[
+    {
+        "id":"1",
+        "imgUrl":"https://loremflickr.com/320/240?random=1",
+        "imgAlt":"Kevin Kruse",
+        "title": "Spring and summershoes",
+        "content":"Life isn’t about getting and having, it’s about giving and being",
+        "dataLink":"#",
+        "checkName":"card_01"
+
+    },
+    {
+        "id":"2",
+        "imgUrl":"https://loremflickr.com/320/240/dog",
+        "imgAlt":"Napoleon Hill",
+        "title":"TC Reusable Silicone Magic Washing Gloves",
+        "content":"Whatever the mind of man can conceive and believe, it can achieve",
+        "dataLink":"#",
+        "checkName":"card_02"
+
+    },
+    {
+        "id":"3",
+        "imgUrl":"https://loremflickr.com/320/240/brazil,rio",
+        "imgAlt":"Albert Einstein",
+        "title":"Oil Free Moisturizer 100ml",
+        "content":"Whatever the mind of man can conceive and believe, it can achieve",
+        "dataLink":"#",
+        "checkName":"card_03"
+    },
+    {
+        "id":"4",
+        "imgUrl":"https://loremflickr.com/320/240?random=2",
+        "imgAlt": "Women Sweaters Wool",
+        "title":"lighting ceiling kitchen",
+        "content":"Strive not to be a success, but rather to be of value.",
+        "dataLink":"#",
+        "checkName":"card_04"
+
+    },
+    {
+        "id":"5",
+        "imgUrl":"https://loremflickr.com/320/240?random=3",
+        "imgAlt":"Infinix INBOOK",
+        "title":"Pubg Printed Graphic T-Shirt",
+        "content":"You miss 100% of the shots you don’t take.",
+        "dataLink":"#",
+        "checkName":"card_05"
+
+    },
+    {
+        "id":"6",
+        "imgUrl":"https://loremflickr.com/320/240?random=4",
+        "imgAlt":"Black Motorbike",
+        "title":"Hyaluronic Acid Serum",
+        "content":"I attribute my success to this: I never gave or took any excuse.",
+        "dataLink":"#",
+        "checkName":"card_06"
+
+    }
+]

@@ -1,0 +1,26 @@
+#footer{
+    background-color: rgb(27, 27, 27);
+    padding:1.5rem 0;
+}
+#footer h2{
+    color:#fff;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+#footer ul li{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#footer ul li a.active{
+    color: #f93;
+    font-weight: bold;
+}
+
+#footer ul li a.on{
+    color: rgb(51, 99, 255);
+    font-weight: bold;
+}

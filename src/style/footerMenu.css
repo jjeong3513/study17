@@ -1,0 +1,15 @@
+.footerMenu{
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid #f93;
+    text-align: center;
+    height: auto;
+    min-height: 300px;
+    margin: 3rem auto;
+}
+
+h2{
+    font-size: 3rem;
+    color: #f93;
+    padding: 1.5rem;
+}
