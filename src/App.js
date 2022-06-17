@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import CardList from './components/CardList';
 import Notice from './components/Notice';
 import Event from './components/Event';
+import Form from './components/Form';
 import {Routes,Route,BrowserRouter} from 'react-router-dom';
 import {Manual, Rule, Policy, EtcInfo} from './components/pages/FooterMenu';
 
@@ -35,6 +36,7 @@ function App() {
          <Route path="/policy" element={<Policy/>} /> 
          <Route path="/etcInfo" element={<EtcInfo />} /> 
          <Route path="/event" element={<Event />} /> 
+         <Route path="/form" element={<Form />} /> 
       </Routes>
       <Footer title={title} />
       </BrowserRouter>

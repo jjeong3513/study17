@@ -1,0 +1,71 @@
+
+.mainContainer{
+    --list-size: 1200px; /* mainContainer라는 특정 범위 안에서만 사용할 수 있는 변수 */
+    height: auto;
+    margin: 50px auto;
+}
+.mainContainer .slideBtn{
+    border-bottom: 1px solid #777;
+    width: var(--list-size); /*위에 지정해준 변수의 값(--list-size)을 사용할 수 있음*/
+    margin: 10px auto;
+}
+
+.mainContainer .slideBtn button{
+    padding: 0.5rem 1rem ;
+    background-color: rgb(29, 185, 29);
+    margin: 0 1rem;
+    color: #fff;
+}
+.mainContainer .viewContents{
+    margin: auto;
+    width: var(--list-size); 
+    border: 1px solid #999;
+    overflow: hidden; /*원래 안보이는 상태로 해놓고 조건에 해당할때만 보이게 하려고 함*/
+} 
+
+.mainContainer .viewContents ul{
+    width: 500%; /*5장이 들어가야 하니까 500%*/
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap; /*wrap을 주면 밑으로 떨어지기 때문*/
+} 
+.mainContainer .viewContents li{
+    flex-shrink: 1; /*축소되면 안되기 때문*/
+    width: var(--list-size);
+    height: 500px;
+    font-size: 4rem;
+    text-align: center;
+    padding: 50px;
+    display: none;
+}
+.mainContainer .viewContents li.on{
+    display: block;
+    color: rgb(78, 19, 195);
+}
+
+.mainContainer .view_01{
+    background-color: #f4f459;
+}
+.mainContainer .view_02{
+    background-color: #ee9b68;
+}
+.mainContainer .view_03{
+    background-color: #cb60f5;
+}
+.mainContainer .view_04{
+    background-color: #ed66e0;
+}
+.mainContainer .view_05{
+    background-color: #f4f459;
+}
+
+
+@keyframes firstSlide{
+    0%{margin-left: 100%; transition: none;}
+    100%{margin-left: 0; transition: margin 500ms ease;}
+}
+@keyframes lastSlide{
+    0%{margin-left: 0%; transition: margin 500ms ease;}
+    100%{margin-left: 100%; }
+}

@@ -7,6 +7,7 @@ const Nav = () => {
         {content:'CardList',href:'cardList'},
         {content:'Notice',href:'notice'},
         {content:'Event',href:'event'},
+        {content:'Form',href:'form'},
     ]
     return (
         <div id='nav'>

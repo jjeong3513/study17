@@ -3,6 +3,7 @@ import React from 'react';
 import Card from './Card';
 import { useState ,useEffect } from 'react';
 import axios from 'axios';
+import '../style/container.css';
 
 const CardList = () => {
 
